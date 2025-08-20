@@ -1,0 +1,25 @@
+.task-edit {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.task-nombre,
+.task-descripcion,
+.task-estado {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.task-descripcion textarea {
+  min-height: 100px;
+  height: auto;
+  max-width: 100%;
+  min-width: 100%;
+}
+.task-estado div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
