@@ -5,12 +5,15 @@ import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
 import { MdEdit } from "react-icons/md";
 import { useSelector, useDispatch } from "react-redux";
-import { height } from "@mui/system";
+import { display, flexDirection, flexWrap, height } from "@mui/system";
 import "../styles/modal.css";
 import { editTask } from "../slices/task.slice";
 import { useState, useRef } from "react";
 
 const style = {
+  display:"flex",
+  flexWrap:"wrap",
+  flexDirection:"column",
   position: "absolute",
   top: "50%",
   left: "50%",
