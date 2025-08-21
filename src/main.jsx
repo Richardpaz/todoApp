@@ -9,6 +9,7 @@ createRoot(document.getElementById("root")).render(
   <StrictMode>
     <Provider store={store}>
       <App />
+      <h1>hola app</h1>
     </Provider>
   </StrictMode>
 );
